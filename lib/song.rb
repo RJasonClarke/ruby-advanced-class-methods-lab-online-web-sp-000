@@ -10,7 +10,7 @@ class Song
     self.class.all << self
   end
 
-  song = Song.create
+  song = Song.new
 Song.all.include?(song)
 
 end
